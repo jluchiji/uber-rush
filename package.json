@@ -1,0 +1,75 @@
+{
+  "name": "node-uber-rush",
+  "description": "Node.js bindings for Uber Rush",
+  "version": "0.0.3",
+  "homepage": "https://github.com/jluchiji/uber-rush",
+  "author": {
+    "name": "Denis Luchkin-Zhou",
+    "email": "wyvernzora@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jluchiji/uber-rush.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jluchiji/uber-rush/issues"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=4.1.0",
+    "npm": ">=2.14.0"
+  },
+  "scripts": {
+    "test": "",
+    "prepublish": "./node_modules/.bin/gulp rebuild"
+  },
+  "dependencies": {
+    "debug": "^2.3.2",
+    "lodash": "^4.14.0",
+    "rest-kit": "0.0.5"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-core": "^6.18.0",
+    "babel-eslint": "^7.1.0",
+    "babel-plugin-transform-function-bind": "^6.8.0",
+    "babel-preset-es2015-node4": "^2.1.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "babel-register": "^6.18.0",
+    "codecov": "^1.0.1",
+    "del": "^2.2.1",
+    "eslint": "^3.1.1",
+    "eslint-config-ricepo": "^2.0.1",
+    "eslint-plugin-ava": "^3.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-lodash": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-changed": "^1.3.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-yaml": "^1.0.1",
+    "is-ci": "^1.0.9",
+    "lerna": "2.0.0-beta.28",
+    "lodash": "^4.16.3",
+    "nyc": "^8.1.0"
+  },
+  "keywords": [],
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  },
+  "nyc": {
+    "reporter": [
+      "html",
+      "lcov"
+    ]
+  }
+}
