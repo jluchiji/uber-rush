@@ -1,7 +1,7 @@
 {
   "name": "node-uber-rush",
   "description": "Node.js bindings for Uber Rush",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "homepage": "https://github.com/jluchiji/uber-rush",
   "author": {
     "name": "Denis Luchkin-Zhou",
