@@ -30,7 +30,7 @@
   "dependencies": {
     "debug": "^2.3.2",
     "lodash": "^4.14.0",
-    "rest-kit": "0.0.5"
+    "rest-kit": "~0.1.0"
   },
   "devDependencies": {
     "ava": "^0.16.0",
